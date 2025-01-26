@@ -1,12 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  <head>
     <title>Redirecting...</title>
-    <meta http-equiv="refresh" content="0; url=https://shunchizhang.github.io">
-</head>
-<body>
-    <p><a href="https://shunchizhang.github.io">Click here (shunchizhang.github.io)</a> if you are not redirected.</p>
-</body>
+    <script type="text/javascript" src="redirect.js"></script>
+    <script type="text/javascript">
+      applyRedirect();
+    </script>
+  </head>
+  <body>
+    <p>
+      Click <a id="targetUrl" href="#">[TARGET URL]</a> if you are not
+      redirected.
+    </p>
+    <script>
+      setRedirectLink("targetUrl");
+    </script>
+  </body>
 </html>
