@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // const targetBaseUrl = "shunchizhang.github.io";
-  const targetBaseUrl = "zssc.tech";
+  const targetBaseUrl = "shunchizhang.github.io";
+  // const targetBaseUrl = "zssc.tech";
   const targetUrl = window.location.href.replace(
     window.location.host,
     targetBaseUrl
